@@ -13,7 +13,8 @@ int main(){
 
 	srand((unsigned int)time(NULL));
 
-
+	// 名前を聞くパートを足す。
+	
 	printf("Rolling dice...\n");
 	
 	die_1 = rand() % 6 + 1;
